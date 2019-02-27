@@ -12,7 +12,15 @@ namespace Binary
         {
             int a = int.MaxValue;
             Console.WriteLine(a);
-            Console.WriteLine(a + 3);
+            Console.WriteLine(a + 1);
+
+            int n ;
+            Console.WriteLine("bee");
+            n = Convert.ToInt32(Console.ReadLine());
+              
+           string binary = Convert.ToString(n,2);
+
+            Console.WriteLine(binary);
 
             Console.WriteLine();
 
