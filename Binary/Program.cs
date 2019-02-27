@@ -15,14 +15,14 @@ namespace Binary
             Console.WriteLine(a + 1);
 
             int n ;
-            Console.WriteLine("bee");
+            Console.WriteLine();
             n = Convert.ToInt32(Console.ReadLine());
               
            string binary = Convert.ToString(n,2);
 
             Console.WriteLine(binary);
 
-            Console.WriteLine();
+            Console.WriteLine(n);
 
             int b = int.MinValue;
             Console.WriteLine(b);
